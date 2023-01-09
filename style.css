@@ -38,3 +38,44 @@ p, h1, h2, h3, h4, h5, h6 {
     --fw-regular: 400;
     --fw-bold: 700;
 }
+
+body {
+    background-color:var(--background-clr);
+    background-image: url(images/bg-pattern-top.svg);
+    font-family: var(--main-ff);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.user img {
+    border-radius: 100%;
+    border: 6px solid white;
+    background-color: white;
+    position: relative;
+    bottom: 48px;
+    margin: 0 auto -2rem auto;
+}
+
+.nameAge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameAge h1 {
+    font-size: 1.2rem;
+}
+
+.nameAge p {
+    margin: 0 0.5rem;
+}
