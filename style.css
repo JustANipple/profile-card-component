@@ -27,7 +27,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
+    --background-clr: hsl(185, 75%, 39%);
+    --big-text-clr: hsl(229, 23%, 23%);
+    --regular-text-clr: hsl(227, 10%, 46%);
+    --neutral-clr: hsl(0, 0%, 59%);
 
-
+    --name-stats-fs: 18px;
     --main-ff: 'Kumbh Sans', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
 }
