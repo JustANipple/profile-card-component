@@ -42,7 +42,7 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
     background-color:var(--background-clr);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-position: ;
+    background-position: -750px -600px, 150px 300px;
     font-family: var(--main-ff);
     background-repeat: no-repeat;
     display: flex;
@@ -119,6 +119,6 @@ body {
 
 @media screen and (min-width: 1000px) {
     body {
-        background-position:-250px -500px, 600px 500px; 
+        background-position:-250px -500px, 650px 350px; 
     }
 }
