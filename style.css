@@ -41,7 +41,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color:var(--background-clr);
-    background-image: url(images/bg-pattern-top.svg);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: ;
     font-family: var(--main-ff);
     background-repeat: no-repeat;
     display: flex;
@@ -56,10 +57,6 @@ body {
     overflow: hidden;
     border-radius: 1rem;
     margin: 1.5rem;
-}
-
-.cardBg {
-    height: max-content;
 }
 
 .user {
@@ -118,4 +115,10 @@ body {
     color: var(--regular-text-clr);
     font-size: 0.7rem;
     letter-spacing: 1.5px;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-position:-250px -500px, 600px 500px; 
+    }
 }
